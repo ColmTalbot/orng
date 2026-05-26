@@ -10,10 +10,11 @@ from .functional import (
     create_functional_backend,
     create_functional_backend_from_xp,
 )
-from .orng import ArrayRNG
+from .orng import ArrayRNG, RandomGenerator
 
 __all__ = [
     "ArrayRNG",
+    "RandomGenerator",
     "create_backend_from_xp",
     "create_functional_backend",
     "create_functional_backend_from_xp",
